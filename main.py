@@ -11,7 +11,7 @@
 hint: что такое print?
 """
 
-# Замените это своим кодом
+# print ("Hello world!")
 
 """
  _____         _      _____ 
@@ -27,7 +27,17 @@ hint: что такое print?
 hint: цикл, если и "%"
 """
 
-# Замените это своим кодом
+a = int(input())
+for i in range (1, a):
+  print (i) 
+  if i % 3 == 0:
+    print('Fizz')
+  if i % 5 == 0:
+    print('Buzz')
+    it i % 3 or 5 == 0:
+    print('FizzBuzz')
+
+
 
 """
  _____         _      _____ 
